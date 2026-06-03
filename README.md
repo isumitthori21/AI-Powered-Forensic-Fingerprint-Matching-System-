@@ -1,7 +1,7 @@
 The Dataset value was so large that I could not upload the full value here.
 The dataset, named SOCOFing, was downloaded from Kaggle.
 
-Preprocessing was tough work, and it gave heavy outputs-
+Preprocessing steps-
 1. Preprocess the data
 2. Check the shape/dimensions of the input
 3. Making pairs and combining batches.
