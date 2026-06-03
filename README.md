@@ -1,10 +1,30 @@
-The Dataset value was so large that I could not upload the full value here.
-The dataset, named SOCOFing, was downloaded from Kaggle.
+## Fingerprint Recognition System
 
-Preprocessing steps-
-1. Preprocess the data
-2. Check the shape/dimensions of the input
-3. Making pairs and combining batches.
+**Technologies:** TensorFlow/Keras, OpenCV, Convolutional Neural Networks (CNN), Siamese Networks
 
-And the output values were too big, I cannot upload all of it, but I can provide a 
-Google Drive link of it:https://drive.google.com/drive/folders/10-LH2r3-xbDPqmN6Y9LMc_M_iENfuTCn?usp=drive_link
+Developed a fingerprint recognition and verification system using CNN and Siamese Network architectures with TensorFlow/Keras and OpenCV. The model was trained on the SOCOFing (Sokoto Coventry Fingerprint) dataset obtained from Kaggle. The system learns discriminative fingerprint features and performs fingerprint matching by comparing image pairs.
+
+### Dataset
+
+* **Dataset:** SOCOFing (Sokoto Coventry Fingerprint Dataset)
+* **Source:** Kaggle
+* Due to the large size of the dataset, the complete dataset is not included in this repository.
+
+### Preprocessing Pipeline
+
+1. Image preprocessing and normalization.
+2. Validation and standardization of input image dimensions.
+3. Generation of fingerprint image pairs for Siamese Network training.
+4. Batch creation and combination for efficient model training.
+
+### Features
+
+* Automated fingerprint matching and verification.
+* CNN-based feature extraction.
+* Siamese Network for similarity learning.
+* Efficient preprocessing and pair-generation pipeline.
+* Supports large-scale fingerprint comparison tasks.
+
+### Output
+
+Google Drive link:https://drive.google.com/drive/folders/10-LH2r3-xbDPqmN6Y9LMc_M_iENfuTCn?usp=drive_link
